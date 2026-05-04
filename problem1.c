@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #define MAX 1000
-
 void main() {
     char S[MAX];
     printf("Enter the string: ");
