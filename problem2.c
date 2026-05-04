@@ -1,6 +1,5 @@
 #include <stdio.h>
 #define MAX 100
-
 int main(){
     int n,k,a[MAX];
     printf("Enter n: ");
