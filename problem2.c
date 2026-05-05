@@ -12,8 +12,7 @@ int main(){
     scanf("%d",&k);
     for(int i=1;i<n;i++){
         if(a[i]%k!=a[0]%k){
-            printf("Not possible\n");
-            return 0;
+            return -1;
         }
     }
     for(int i=0;i<n-1;i++){
